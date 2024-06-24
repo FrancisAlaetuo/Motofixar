@@ -88,6 +88,11 @@
     margin-left: 84px;
 }
 
+.forHover:hover {
+    border-bottom: 3px solid whitesmoke;
+    
+}
+
 .main-footerA {
     text-decoration: none;
 }
