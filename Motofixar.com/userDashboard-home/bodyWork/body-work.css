@@ -16,6 +16,13 @@ body {
     height: 110vh;
 }
 
+.header .menu-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 .body-workDetails {
     width: 85%;
     margin: auto;
