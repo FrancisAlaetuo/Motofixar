@@ -1,0 +1,639 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    /* height: 200vh; */
+    overflow-x: hidden !important;
+    
+}
+
+/* Navbar CSS (header and sidebar) */
+
+.header-bg{
+    background-color: #0b0000;
+}
+
+.forSpacing{
+    letter-spacing: 0.15rem;
+    font-size: bolder;
+    color: rgb(187, 155, 155);
+}
+
+.forSidebarSpacing{
+    letter-spacing: 0.15rem;
+    font-size: bolder;
+    color: rgb(187, 155, 155);
+}
+
+.signUpUniqueColor{
+    background-color: #1877F2;
+    color: white;
+}
+
+.signUpUniqueColor:hover{
+    background-color: #3980dd;
+    transition: 0.2s ease-in-out;
+    color: rgb(236, 232, 232);
+    
+}
+
+.loginHover{
+    color: white;
+    background-color: rgba(214, 213, 213, 0.1);
+}
+
+.loginHover:hover{
+    background-color: rgba(214, 213, 213, 0.3);
+    transition: 0.2s ease-in-out;
+    color: rgb(236, 232, 232);
+}
+
+/* MENU 2 CSS DESIGN STARTS HERE*/
+
+.menu2 {
+    position: sticky !important;
+    top: 2px;
+    background-color: white;
+    margin-top: 70px;
+    position: sticky;
+    top: 66px;
+    height: 70px;
+    padding: 0 4vw 0 8vw;
+
+
+    display: flex;
+    justify-content: space-around;
+
+    z-index: 1000;
+    
+}
+
+
+.menu2 .right {
+    flex: 1;
+    display: flex;
+    column-gap: 10px;
+    padding-left: 6vw;
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.btn-button {
+    background-color: rgb(187, 155, 155) !important;
+    color: white !important;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    padding-left: 50px;
+}
+
+
+
+.input-container {
+    width: 53%;
+    position: relative;
+}
+
+.right .input-container input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #696969;
+    outline: none;
+    font-size: 17px;
+    font-weight: 400;
+    padding: 0 10px 0 40px;
+    
+    
+}
+
+.right .search-icon {
+    position: absolute;
+    z-index: 1;
+    left: 12px;
+    top: 12px;
+    font-size: 18px;
+    color: #616161;
+    
+}
+
+.right button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(187, 155, 155);
+    background-color: rgb(187, 155, 155);
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+    
+}
+
+.right button:hover {
+    background-color: rgb(194, 168, 168);
+    border: 1px solid rgb(194, 168, 168);
+}
+
+
+
+
+.right .ext a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+    color: #2b2b2b;
+    padding-left: 0px;
+}
+
+.right .ext {
+    white-space: nowrap;
+}
+
+.right .ext i {
+    color: #2b2b2b;
+    /* font-weight: 500; */
+    font-size: 20px;
+    padding-left: 7px;
+
+}
+
+.right .ext:hover a {
+    color: rgb(187, 155, 155);
+}
+
+.right .ext:hover i {
+    color: rgb(187, 155, 155);
+}
+
+span.ext.dropdown-center li {
+    line-height: 30px;
+    color: gray;
+  }
+
+
+span.ext.dropdown-center:hover li a {
+    color: gray
+}
+  
+span.ext.dropdown-center:hover li a i {
+    color: gray
+}
+
+/* Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+  }
+
+  .video_contentOverlay {
+    position: absolute;
+    top: 27%;
+    left: 5%;
+    align-items: center;
+    
+  }
+
+  /* .video-content {
+    overflow-x: hidden;
+  } */
+  
+  /* Video Background */
+  /* #video-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+    overflow-x: hidden;
+  } */
+  
+  /* Text Overlay */
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+  }
+
+  .video-text {
+    width: 85%;
+    margin: auto;
+  }
+
+.fontChange{
+    font-size: 25px;
+}
+
+.fontChange2{
+    font-size: 18px;
+}
+
+/* SIGN UP OR REGISTER SECTION CSS STARTS HERE */
+.signUp-JoinDiv{
+    padding: 100px 15px;
+    background-color: #0b0000;
+}
+
+.eachFlexContent{
+    background-color: rgb(187, 155, 155);
+    box-shadow: 2px 2px 10px rgb(114, 114, 114);
+}
+
+/* CAROUSEL SECTION STARTS HERE */
+.maintenanceHacks-DIY-carKits-and-types{
+    background-color: #000;
+}
+
+.maintenanceHacks-DIY-carKits-and-types2{
+    background-color: #000;
+}
+
+.carousel-item{
+    height: 30rem; 
+    color: white;
+    position: relative;
+}
+
+.overlay-image{
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 20%;
+    right: 20%;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* Download our Apps CSS starts here */
+.get-our-app {
+    background-color: #f1f1f1;
+}
+
+/* PRODUCTS DESING STARTS HERE */
+
+.products-and-title {
+    background-color: #f1f1f1;
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+.products-and-title h1{
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    font-size: 16px;
+    color: #181818;
+}
+
+.p1, .p2, .p3, .p4  {
+    width: 20%;
+}
+
+
+
+.products p {
+    margin-bottom: 22px;
+    line-height: 25px;
+
+}
+
+.products p:nth-child(2) {
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+.products img {
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.products .learn-more a {
+    line-height: 5px;
+    color: #202020;
+    font-weight: bold;
+    font-size: 18;
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5px;
+    padding-bottom: 3px;
+    
+    
+}
+
+.products .learn-more i{
+    padding-left: 5px;
+    font-size: 18px;
+    font-weight: 10px;
+    transition: padding-left 0.2s;
+}
+
+
+.products .learn-more:hover i{
+    padding-left: 10px;
+}
+/* PRODUCTS CSS ENDS HERE */
+
+/* DATA PRIVACY AND SAFETY CSS STARTS HERE */
+.privacy-policy-minHeight {
+    min-height: 200px;
+}
+
+#check:checked .main-privacy-policyDiv {
+    display: block
+}
+
+
+/* HIDDEN PRIVACY POLICY CSS STARTS HERE */
+.main-privacy-policyDiv {
+    width: 75%;
+    margin: auto;
+}
+
+/* FIRST FOOTER SECTION CSS  STARTS HERE */
+.joinCommunity-main {
+    border-bottom: 8px solid rgb(255, 139, 97);
+    min-height: 200px;
+    height: 1%;
+}
+
+.joinCommunity-bg {
+    background-color: rgb(223, 88, 39);
+    color: white;
+}
+
+.joinCommunity-bg:hover {
+    background-color: rgb(226, 90, 40);
+    color: #363535;
+    opacity: 0.7s;
+}
+
+.big-semiFooter {
+    background-color: #f1f1f1;
+}
+
+.semi-footerDiv-a {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+/* MOTOFIXAR FOOTER CSS STARTS HERE */
+.main-footer {
+    background-color: #0b0000;
+}
+
+.main-footerFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.motofixar-footer-socials {
+    margin-left: 84px;
+}
+
+.forHover:hover {
+    border-bottom: 3px solid whitesmoke;
+    
+}
+
+.main-footerA {
+    text-decoration: none;
+}
+
+.main-footerA:hover {
+    text-decoration: underline;
+}
+
+.contactUs-color-change {
+    color: rgb(99, 98, 98);
+}
+
+
+/* CSS FOR SCROLL TO TOP BUTTON */
+
+#to-top {
+    position: sticky;
+    top: 85vh;
+    margin-left: 87vw;
+    padding: 13px 16px;
+    background-color: rgb(187, 155, 155);
+    border-radius: 50px;
+    border: 1px solid #443526;
+    transition: background-color 0.2s;
+    z-index: 10;
+    
+
+}
+
+a #to-top i {
+    color: #2b2b2b;
+}
+
+
+#to-top:hover {
+    background-color: rgb(201, 179, 179);
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and  (max-width: 950px) {
+    
+}
+
+@media (max-width: 1050px) {
+    .products {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 40px;
+        row-gap: 50px;
+        justify-content: center;
+        padding: 30px 40px;
+        font-size: 16px;
+        color: #181818;
+    }
+    
+    .p1, .p2, .p3, .p4 {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    .diagnosis-interactionText{
+        font-size: 20px;
+    }
+
+    .joinCommunity-main {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 850px) {
+    .fontChange{
+        font-size: 22px;
+    }
+
+    .fontChange2{
+        font-size: 14px;
+    }
+
+    .diagnosis-interactionText{
+        font-weight: bold;
+        font-size: 13px;
+    }
+
+    /* FOOTER SECTION RESPONSIVENESS */
+    .main-footerFlex {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 25px;
+        
+    }
+
+    /* PRODUCTS SECTION FOR MOBILE RESPONSIVENESS */
+    
+    .products-and-title h1{
+        font-size: 30px;
+    }
+    
+    /* SEMI-FOOTER DIV RESPONSIVENESS STARTS HERE */
+    .semi-footerDiv-a {
+        display: grid;
+        grid-template-columns: 45% 45%;
+    }
+}
+
+
+@media (max-width: 680px) {
+
+.track {
+    display: none;
+}
+
+.menu2 .right {
+    padding-left: 1vw;
+}
+
+
+.right button {
+    padding: 10px 5px;
+}
+
+.menu2 {
+    padding: 0px 4vw 0px 4vw;
+}
+
+.fontChange{
+    font-size: 18px;
+}
+
+.fontChange2{
+    font-size: 12px;
+}
+
+.input-container2 input {
+    width: 240px;
+ }
+
+ .products {
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 40px;
+    row-gap: 50px;
+    justify-content: center;
+    padding: 30px 40px;
+    font-size: 16px;
+    color: #181818;
+}
+
+.p1, .p2, .p3, .p4 {
+    width: 100%;
+}
+
+.data-usageP {
+    font-size: 14px;
+}
+
+.motofixar-privacy-policy {
+    flex-direction: column;
+}
+
+.main-privacy-policyDiv {
+    width: 100%;
+}
+
+.permissions-fs {
+    font-size: 18px;
+}
+
+.permissions-fs-p {
+    font-size: 14px;
+}
+
+
+
+
+/* .video_contentOverlay{
+    margin-top: 10px;
+    padding: 15px 0;
+} */
+
+}

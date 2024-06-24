@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Car Kit</title>
+    <link rel="stylesheet" href="car-kit.css">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar for header starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark header-bg fixed-top">
+        <div class="container">
+            <!-- Motofixar logo goes here -->
+            <div class="navbar-brand fs-4 d-flex gap-3" href="#">
+                <span class="justify-content-center">
+                    <img class="rounded-4" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" alt="" style="width: 30px;">
+                </span>
+                <span class="justify-content-center mx-auto">
+                    <a class="justify-content-center align-items-center text-decoration-none forSpacing">Motofixar</a>
+                </span>
+            </div>
+
+            <!-- Toggle Btn goes here -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Sidebar -->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header text-dark border-bottom">
+                    <h5 class="offcanvas-title forSidebarSpacing" id="offcanvasNavbarLabel">Motofixar</h5>
+                    <button type="button" class="btn-close btn-close-dark shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex flex-lg-row flex-column p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="../motofixar.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../about-us/about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../services/services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../contact-us/contact-us.html">Contact</a>
+                        </li>
+                        
+                    </ul>
+
+                    <!-- Login and Sign Up -->
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                        <a href="../sign-in/signin.html" class="text-decoration-none px-4 py-1 rounded-3 loginHover">Sign In</a>
+                        <a href="../sign-up/register.html" class="text-decoration-none px-3 py-1 signUpUniqueColor rounded-3">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+
+    <div class="car-kit" style="margin-top: 120px; width: 80%; margin-left: auto; margin-right: auto;">
+        <div class="do-it-yourself-videoBg mt-2 mb-5" style="height: 400px; width: 100%">
+            <img class="border-2 rounded-4" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66421ff41e97486f39583323_motofixar-essential-car-items.jpg" alt="Do It Yourself For Care Quick fixes" style="height: 100%; width: 100%;">
+        </div>
+        <div class="emergency-car-kit">
+            <h1 class="text-uppercase text-center fw-bold fs-2 mb-5">Emergency kit for your vehicle</h1>
+
+            <p>
+                It's impossible to predict when an incident will occur and regrettably it is not possible to 
+                eliminate all risk of it ever happening. With this in mind, we share with you some ideas on 
+                what you can do to be prepared in the event of a road traffic emergency.
+            </p>
+
+            <p class="mt-3">
+                Every vehicle should be equipped with a basic emergency kit. An incident can literally stop 
+                you in your tracks and can be brought about by any number of reasons;
+            </p>
+            <ul>
+                <li>Mechanical failure - engine problems, flat battery, flat tyre</li>
+                <li>Running out of fuel or oil</li>
+                <li>Traffic jams</li>
+                <li>Extreme weather</li>
+            </ul>
+
+            <p>
+                Many drivers know how to change a flat tyre, but with increasingly complex engines, the 
+                likelihood of successfully making any mechanical repairs yourself is small. Often the primary 
+                aim of an emergency kit is to keep you safe and comfortable until roadside recovery or assistance 
+                arrives to help you.
+            </p>
+            <p>
+                In some countries it's a legal requirement to carry certain items in your vehicle, for example 
+                warning triangles. Before putting together your emergency kit, check what's needed in the countries 
+                in which you'll be travelling.
+            </p>
+            
+        </div>
+
+        <div class="main-car-kit mt-5 mb-5">
+            <h3 class="fs-6 fw-bold text-uppercase">Emergency Vehicle Kit Checklist</h3>
+            <div class="mb-5">
+                <p>
+                    To protect:
+                </p>
+                <ul>
+                    <li>Charged mobile phone</li>
+                    <li>Atlas</li>
+                    <li>First Aid Kit</li>
+                    <li>Fire Extinguisher</li>
+                    <li>Warning triangle</li>
+                    <li>High visibility waterproof vest</li>
+                    <li>Pepper spray for self-defence</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <p>
+                    To repair:
+                </p>
+                <ul>
+                    <li>Spare tyre and jack</li>
+                    <li>Booster cables</li>
+                    <li>Tow rope</li>
+                    <li>Spare fuses</li>
+                    <li>Duct tape</li>
+                    <li>Swiss Army knife or multi-tool</li>
+                    <li>Snow shovel/windscreen scrape</li>
+                    <li>Gloves & rags</li>
+                </ul>
+            </div>
+
+            <div class="mb-5">
+                <p>
+                    For comfort:
+                </p>
+                <ul>
+                    <li>Drinking water</li>
+                    <li>Non-perishable snacks</li>
+                    <li>Blanket</li>
+                    <li>Torch and spare batteries</li>
+                    <li>Clothes appropriate to the season</li>
+                </ul>
+            </div>
+    
+        </div>
+
+
+
+        <div class="must-have-items mt-5">
+            <h3 class="fs-6 fw-bold mb-5 text-uppercase">Must-have items</h3>
+            <p>
+                In your toolkit, you should have a number of items to keep you safe, some for basic repairs 
+                and others to keep you comfortable. In addition to basic items such as a charged mobile phone, 
+                the exact contents will depend on where you are travelling and the weather conditions.
+            </p>
+            <p class="mb-5">
+                Professional drivers on long haul journeys are likely to be far from home, and many miles from 
+                a depot or a truckstop. In this case, you may need to consider the possibility of an overnight 
+                stay and take along a sleeping bag . As a truck driver you have a duty of care to your vehicle. 
+                As the tool of your trade, you are unlikely to abandon it. So be sure to take along plenty of 
+                supplies such as food and drink.
+            </p>
+
+            <h3 class="fs-6 fw-bold text-uppercase">Be prepared</h3>
+            <p>
+                Don't leave it too late! Too often, drivers only think about what they need once they are 
+                involved in an incident. It's really as simple as keeping a few spare items in your vehicle and 
+                this can make all the difference.
+            </p>
+
+            <ol>
+                <li>Buy a ready-made emergency kit or put together your own, depending on your needs.</li>
+                <li>
+                    Before setting off to a new country, check if there are any legal requirements or guidelines 
+                    on what you should carry in your vehicle.
+                </li>
+                <li>
+                    Make regular checks:
+                    <ul class="mt-3">
+                        <li>For example, make sure the batteries in your torch have not gone flat.</li>
+                        <li>Check that your spare tyre is inflated.</li>
+                        <li>Remember to replace any items that you may have used.</li>
+                    </ul>
+                </li>
+            </ol>
+            
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MAIN FOOTER SECTION STARTS HERE -->
+<div class="main-footer p-5" style="margin-top: 450px;">
+    <div class="mb-5 main-footerFlex">
+        <div>
+            <h3 class="text-white text-bold fs-4">About Motofixar</h3>
+            <ul class="list-unstyled">
+                <li><a href="../about-us/about-us.html" class="text-white main-footerA">About Us</a></li>
+                <li><a href="" class="text-white main-footerA">Terms and Conditions</a></li>
+                <li><a href="" class="text-white main-footerA">Privacy Policy</a></li>
+                <li><a href="" class="text-white main-footerA">Cookie Policy</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Need Help</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Help Center</a></li>
+                <li><a href="" class="text-white main-footerA">FAQs</a></li>
+                <li><a href="" class="text-white main-footerA">Self Diagnosis</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Our Team</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Blog</a></li>
+                <li><a href="" class="text-white main-footerA">Discord</a></li>
+                <li><a href="" class="text-white main-footerA">Developers</a></li>
+                <li><a href="" class="text-white main-footerA">Partners</a></li>
+                <li><a href="" class="text-white main-footerA">Referrals</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Locate Stores</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Spare Parts</a></li>
+                <li><a href="" class="text-white main-footerA">lubricants</a></li>
+                <li><a href="" class="text-white main-footerA">First Aid</a></li>
+                <li><a href="" class="text-white main-footerA">Car Essentials</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <div class="motofixar-footer-socials text-white mb-5">
+        <h4>Join our socials</h4>
+        <div class="social-handles d-flex gap-3 fs-4">
+            <!-- for facebook, youtube, instagram, twitter -->
+            <span class="me-2"><a href=""><i class="fa-brands fa-facebook text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-youtube text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></span>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <p class="contactUs-color-change"><strong>Contact us:</strong> francisalaetuo@gmail.com</p>
+    </div>
+
+</div>
+<!-- MAIN FOOTER SECTION ENDS HERE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

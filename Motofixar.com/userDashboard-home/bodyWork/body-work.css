@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    backdrop-filter: blur(10px) !important;
+}
+
+body {
+    /* background-color: #f4f4f4; */
+    background-image: url(https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664e0dd293d95631f443ca96_body-work2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 110vh;
+}
+
+.body-workDetails {
+    width: 85%;
+    margin: auto;
+}
+
+.redirect {
+    width: 90%;
+    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+.linkBtn {
+    width: 120px;
+    background-color: rgb(86, 179, 86);
+    box-shadow: 2px 2px 10px rgb(49, 75, 49);
+}
+
+.linkBtn:hover {
+    width: 120px;
+    background-color: rgb(61, 97, 61);
+    box-shadow: 2px 2px 10px rgb(49, 75, 49);
+    opacity: 0.7s;
+    transition: 1.2s all;
+}
+
+
+/* Responsiveness starts here */
+@media screen and  (max-width: 750px) {
+    .body-workDetails {
+        width: 100%;
+    }
+}

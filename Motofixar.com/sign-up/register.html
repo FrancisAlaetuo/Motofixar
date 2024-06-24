@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./register.css">
+    <script src="https://kit.fontawesome.com/c06a037a1d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <title>Social form</title>
+</head>
+<body>
+    <div class="container-form">
+
+
+        <!-- CODE FOR THE TITLE AND THE HOME BUTTON. 
+        THE HOME BUTTON IS IS POSITIONED ABSOLUTE AND
+        THE h1 CONTAINER IS POSIITIONED RELATIVE -->
+        <h1 class="create-title">
+            <a href="../motofixar.html">
+                <span class="home-btn">
+                    <i class="fa-solid fa-house"></i>
+                    Home
+                </span>
+            </a>
+                Create an account
+        </h1>
+
+        <!-- TITLE AND HOME BUTTON ENDS HERE -->
+
+
+
+        <p>Sign up with your social media account or email address</p>
+
+
+
+        <!-- SOCIAL BUTTONS START HERE -->
+        <div class="form-class">
+
+            <a href="https://facebook.com"><span><i class="fa-brands fa-facebook-f"></i></span> Facebook</a>
+
+            <a href="https://twitter.com"><span><i class="fa-brands fa-x-twitter"></i></span> Twitter</a>
+
+            <a href="https://gmail.com.com"><span><i class="fa-brands fa-google"></i></span> Google</a>
+        </div>
+
+        <!-- SOCIAL ENDS HERE -->
+
+       
+
+        <!-- OR WITH LINE STARTS HERE -->
+        <div class="or">
+            <fieldset><legend>Or</legend></fieldset>
+        </div>
+        <!-- OR ENDS HERE -->
+        
+
+        <!-- fORM ELEMENTS STARTS HERE -->
+
+        <!-- EACH ICON AND INPUT ELEMENT ARE IN A DIV CALLED "form-user" -->
+        <div class="form-main">
+            <form action="">
+                <div class="form-user">
+                    <i class="fa-solid fa-user"></i>
+                    <input type="text" name="" id="" placeholder="Username">
+                </div>
+
+
+
+                <div class="form-user">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="email" name="" id="" placeholder="Email address">
+                </div>
+
+
+                <div class="form-user">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="tel" name="" id="" placeholder="Phone Number">
+                </div>
+
+                <div class="form-user">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="" id="" placeholder="Password">
+                </div>
+
+                <div class="form-user">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="" id="" placeholder="Confirm Password">
+                </div>
+
+                <!-- <div style="display: flex; align-content: center; gap: 5px; margin-left: auto; margin-right: auto; background-color: rgb(187, 197, 197);">
+                    <p>Register as a Technician</p>
+                    <a href=""><input type="checkbox" name="" id=""></a>
+                </div> -->
+
+                <!-- Find out Terence how to add this part to your sign up form, hide it, and then control 
+                it using the Register as a Technician and the chekcbox -->
+                <div class="join-as-technician">
+                    <a href="#" id="toggle-hidden-section">Register as a Technician</a>
+                    <input type="checkbox" name="" id="toggle-checkbox">
+                    <div class="hidden-section">
+                        <!-- <div class="form-group">
+                            <label for="#businessLocation">Upload a photo of your workshop</label>
+                            <div style="width: 220px; margin: auto;">
+                                <input type="file" name="" id="businessLocation" style="padding-top: 20px; padding-bottom: 60px;">
+                                
+                                <label for="#companyName">Company Name:</label>
+                                <input type="text" name="" id="companyName">
+                            </div>
+                        </div> -->
+                        <section
+                            <form action="">
+                                <label for="#companyName">Company Name:</label>
+                                <input type="text" name="" id="companyName" placeholder="Enter company name">
+
+                                <label for="#companyAddress">Company Address</label>
+                                <input type="text" name="" id="companyAddress" placeholder="Enter company address">
+
+                                <label for="#companyPicture">Upload Company Image</label>
+                                <input type="file" name="" id="companyPicture">
+                            </form>
+                        </section>
+
+                    </div>
+                </div>
+
+                <!-- THIS IS THE REGISTER BUTTON -->
+                <!-- FOR EXAMPLE:  <a> THE BUTTON </a>  -->
+                <a href="">
+                    <button class="btn-btn">Register</button>
+                </a>
+
+
+
+                <p class="have-account">Already have and account? <a href="../sign-in/signin.html">Log In</a></p>
+                
+            </form>
+            
+        </div>
+
+    </div>
+</body>
+</html>

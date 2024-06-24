@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Types And Their Best-Suited Terrains</title>
+    <link rel="stylesheet" href="cars-and-terrains.css">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar for header starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark header-bg fixed-top">
+        <div class="container">
+            <!-- Motofixar logo goes here -->
+            <div class="navbar-brand fs-4 d-flex gap-3" href="#">
+                <span class="justify-content-center">
+                    <img class="rounded-4" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" alt="" style="width: 30px;">
+                </span>
+                <span class="justify-content-center mx-auto">
+                    <a class="justify-content-center align-items-center text-decoration-none forSpacing">Motofixar</a>
+                </span>
+            </div>
+
+            <!-- Toggle Btn goes here -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Sidebar -->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header text-dark border-bottom">
+                    <h5 class="offcanvas-title forSidebarSpacing" id="offcanvasNavbarLabel">Motofixar</h5>
+                    <button type="button" class="btn-close btn-close-dark shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex flex-lg-row flex-column p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="../motofixar.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../about-us/about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../services/services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="../contact-us/contact-us.html">Contact</a>
+                        </li>
+                        
+                    </ul>
+
+                    <!-- Login and Sign Up -->
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                        <a href="../sign-in/signin.html" class="text-decoration-none px-4 py-1 rounded-3 loginHover">Sign In</a>
+                        <a href="../sign-up/register.html" class="text-decoration-none px-3 py-1 signUpUniqueColor rounded-3">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav> 
+
+
+    <div class="cars-and-bestSuited-terrains" style="margin-top: 120px; width: 90%; margin-left: auto; margin-right: auto;">
+        
+        <div class="cars-and-bestSuited-terrains-info">
+            <h1 class="text-uppercase text-center fw-bold fs-2 mb-5 py-5" style="background-color: rgba(175, 167, 167, 0.3);">cars and their best-suited terrains</h1>
+            <h4 class="text-uppercase mb-5 fs-6 fw-bold">get informed knowledge of cars and roads!</h4>
+
+            <p>
+                Let's help you decide on the best car for you. Through our detailed piece on cars and their 
+                best-suited roads, we help you make a choice on what cars to get based on the topography, 
+                road networks, and the climatic conditions of your area.
+            </p>
+
+            <p class="fw-bold text-center my-5 fs-4">
+                The different car types and their best utility conditions are contained below:
+            </p>
+
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 first-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6646172d86710be663e80405_hatchback-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Hatchback</h4>
+                    <p>Hatchback is suitable for hilly terrains</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66461f7a2272e00bea1e42f9_convertible-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Convertible</h4>
+                    <p>Suitable for level and less busy roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 second-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6646209a49f88ea06d7b3a1b_coupe-img.webp" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Coupe</h4>
+                    <p>suitable for terrains without less traffic</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6646216590e30fdb21597524_suv-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>SUV</h4>
+                    <p>Best for highways and heavy traffic roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 third-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664621fd1a2471cab41fae97_sedan-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Sedan</h4>
+                    <p>Suitable for highways and bad roads</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664622e48fa24bd11d0520e6_sportsCar-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Sports Car</h4>
+                    <p>Best for highways, fast lane and level roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 fourth-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664623af90e30fdb215afa71_crossover-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Crossover</h4>
+                    <p>Suitable for highways, bad roads and hills</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6646244e1ec82cbe8a246e3b_stationWagon-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Station Wagon</h4>
+                    <p>Suitable for less busy roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 fifth-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664625160905b0f06715a4c1_minivan-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Minivan</h4>
+                    <p>Suitable for road trips and vactions</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664625a7b45b90752f59f657_pickup-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Pickup Truck</h4>
+                    <p>Best for offroad, hills and bad roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 sixth-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664626481a2471cab42278a3_cityCar-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>City Car</h4>
+                    <p>Suitable for road trips less busy roads</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462705f6d3ba588448d410_hybrid-img.jpg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Hybrid</h4>
+                    <p>Best for highways and fastlane</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 seventh-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664627d08fa79a2ff523f4bc_electricCars-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Electric Cars</h4>
+                    <p>Suitable for fast roads and highways</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664628438705000d73c88e13_utilityCars-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Utility Vehicles</h4>
+                    <p>Suitable for hills, offroad bad roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 eight-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462917fe4835dac27e380c_offroad-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>4X4</h4>
+                    <p>Best for hills, offroad, swamps bad roads</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664629ed664ab1d0517d2e2f_roadster-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Roadster</h4>
+                    <p>Suitable for roads with little traffic</p>
+                </div>
+            </div>
+      
+        </div>
+        <div class="d-flex gap-3 justify-content-around mb-4 ninth-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462aa0f7d9f0525f239708_compactCars-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Compact Cars</h4>
+                    <p>Suitable for level roads</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462b5650d521e596bdd5cf_cuv-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>CUV</h4>
+                    <p>Suitable for roads with less traffic</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around mb-4 tenth-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462bf8423bf352d635aa38_luxuryCars-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Luxury Cars</h4>
+                    <p>Best for level roads with less traffic</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462ca558cd4d2c69e7b5c0_subcompact-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Subcompact</h4>
+                    <p>Suitable for level roads with less traffic</p>
+                </div>
+            </div>
+      
+        </div>
+
+        <div class="d-flex gap-3 justify-content-around eleventh-round-carTypes generalCars">
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462d1c2c6425d062b88ae3_microcar-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Microcars</h4>
+                    <p>Best for streets and roads with less traffic</p>
+                </div>
+            </div>
+    
+            <div class="car-type p-4 border-3 rounded" style="width: 45%; background-color: rgba(175, 167, 167, 0.3);">
+                <div class="mb-3" style="width: 100%; height: 300px;">
+                    <img class="border-3 rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66462db54ccb947960a9396a_salonCars-img.jpeg" alt="" style="width: 100%; height: 100%;">
+                </div>
+                <div class="text-center">
+                    <h4>Salon</h4>
+                    <p>Salon cars are suitable for busy roads</p>
+                </div>
+            </div>
+      
+        </div>
+
+        
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MAIN FOOTER SECTION STARTS HERE -->
+<div class="main-footer p-5" style="margin-top: 450px;">
+    <div class="mb-5 main-footerFlex">
+        <div>
+            <h3 class="text-white text-bold fs-4">About Motofixar</h3>
+            <ul class="list-unstyled">
+                <li><a href="../about-us/about-us.html" class="text-white main-footerA">About Us</a></li>
+                <li><a href="" class="text-white main-footerA">Terms and Conditions</a></li>
+                <li><a href="" class="text-white main-footerA">Privacy Policy</a></li>
+                <li><a href="" class="text-white main-footerA">Cookie Policy</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Need Help</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Help Center</a></li>
+                <li><a href="" class="text-white main-footerA">FAQs</a></li>
+                <li><a href="" class="text-white main-footerA">Self Diagnosis</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Our Team</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Blog</a></li>
+                <li><a href="" class="text-white main-footerA">Discord</a></li>
+                <li><a href="" class="text-white main-footerA">Developers</a></li>
+                <li><a href="" class="text-white main-footerA">Partners</a></li>
+                <li><a href="" class="text-white main-footerA">Referrals</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="text-white text-bold fs-4">Locate Stores</h3>
+            <ul class="list-unstyled">
+                <li><a href="" class="text-white main-footerA">Spare Parts</a></li>
+                <li><a href="" class="text-white main-footerA">lubricants</a></li>
+                <li><a href="" class="text-white main-footerA">First Aid</a></li>
+                <li><a href="" class="text-white main-footerA">Car Essentials</a></li>
+            </ul>
+        </div>
+
+
+
+    </div>
+
+    <div class="motofixar-footer-socials text-white mb-5">
+        <h4>Join our socials</h4>
+        <div class="social-handles d-flex gap-3 fs-4">
+            <!-- for facebook, youtube, instagram, twitter -->
+            <span class="me-2"><a href=""><i class="fa-brands fa-facebook text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-youtube text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></span>
+            <span class="me-2"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></span>
+        </div>
+    </div>
+
+    <div class="text-center mt-5">
+        <p class="contactUs-color-change"><strong>Contact us:</strong> francisalaetuo@gmail.com</p>
+    </div>
+
+</div>
+<!-- MAIN FOOTER SECTION ENDS HERE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

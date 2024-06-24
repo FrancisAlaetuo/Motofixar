@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>motofixar.com</title>
+    <link rel="stylesheet" href="motofixar.css">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navbar for header starts here -->
+    <nav class="navbar navbar-expand-lg navbar-dark header-bg fixed-top" style="height: 70px !important;">
+        <div class="container">
+            <!-- Motofixar logo goes here -->
+            <div class="navbar-brand fs-4 d-flex gap-3" href="#">
+                <span class="justify-content-center">
+                    <img class="rounded-4" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" alt="" style="width: 30px;">
+                </span>
+                <span class="justify-content-center mx-auto">
+                    <a class="justify-content-center align-items-center text-decoration-none forSpacing">Motofixar</a>
+                </span>
+            </div>
+
+            <!-- Toggle Btn goes here -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Sidebar -->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            
+                <!-- Sidebar Header -->
+                <div class="offcanvas-header text-dark border-bottom">
+                    <h5 class="offcanvas-title forSidebarSpacing" id="offcanvasNavbarLabel">Motofixar</h5>
+                    <button type="button" class="btn-close btn-close-dark shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex flex-lg-row flex-column p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" aria-current="page" href="motofixar.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="./about-us/about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="./services/services.html">Services</a>
+                        </li>
+
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="./contact-us/contact-us.html">Contact</a>
+                        </li>
+                        
+                    </ul>
+
+                    <!-- Login and Sign Up -->
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                        <a href="./sign-in/signin.html" class="text-decoration-none px-4 py-1 rounded-3 loginHover">Sign In</a>
+                        <a href="./sign-up/register.html" class="text-decoration-none px-3 py-1 signUpUniqueColor rounded-3">Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- THE SECOND HEADER FOR MOTOFIXAR WEBSITE STARTS HERE -->
+    <div class="menu2">
+
+        <!-- <a href="./motofixar.html"><img src="" alt=""></a>  You'll add the motofixar image hosted on webfont 
+                as a link and add it to the other webpages so it can redirect to the homepage from them when clicked. -->
+
+        <div class="col right">
+            <span class="input-container">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="search" name="" id="" placeholder="Search technicians, workshops and car products">
+            </span>
+            <button>SEARCH</button>  
+            <!-- Find out how to make this button function with JavaScript -->
+
+
+            <!-- Account button on header -->
+            <span class="ext dropdown-center">
+                <a href="" class="btn-warning dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-user"></i> <span class="track">Account</span>
+                </a>
+
+                <ul class="dropdown-menu ps-3">
+                    <div class="btn btn-button w-75 mx-2">SIGN IN</div>
+                    <!-- Find out how to link the sign in button to the sign in html -->
+
+                    <hr class="w-100">
+                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-regular fa-user"></i> My Account</a></li>
+                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-regular fa-calendar-check"></i> Appointments</a></li>
+                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-solid fa-screwdriver-wrench"></i> Repairs History</a></li>
+                  </ul>
+            </span>
+
+
+            <!-- Help button on header -->
+            <span class="ext dropdown-center">
+                <a href="" class="btn-warning dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-regular fa-circle-question"></i> <span class="track">Help</span>
+                </a>
+
+                <ul class="dropdown-menu ps-3">
+                    
+
+                    
+                    <li><a class="dropdown-item" href="#"> Help Center</a></li>
+                    <li><a class="dropdown-item" href="#"> FAQs</a></li>
+                    <li><a class="dropdown-item" href="#"> Upgrade To Premium</a></li>
+                    <li><a class="dropdown-item" href="#">Self Diagnosis</a></li>
+                    
+
+                    <hr class="w-100">
+                    <div class="btn btn-button w-75 mx-2">SEND A MAIL</div>
+                    <!-- Find out how to make this button function with JavaScript -->
+                  </ul>
+            </span>
+
+
+
+            <span class="ext">
+                <i class="fa-solid fa-handcuffs"></i>
+                <a href="#"> <span class="track">T&Cs</span></a>
+            </span>
+
+        </div>
+              
+    </div>
+
+    <!-- THE SECOND HEADER FOR MOTOFIXAR WEBSITE ENDS HERE -->
+
+    <div class="video_container">
+        <video src="./images/Motofixar_main_bgImage.mp4" autoplay playsinline loop width="100%" id="video-bg">
+        </video>
+
+        <div class="video_contentOverlay container-lg">
+            <div class="text-white text-center video-text">
+                <h4 class="fontChange">Motofixar is a leading platform for your vehicle maintenance needs.</h4>
+                <p class="fontChange2">We bring your car diagnosis and maintenance closer to you wherever you are, and whenever you need <br> it. </p>
+            </div>
+    
+            <div class="text-white text-center video-text">
+                <h4 class="fontChange">Never get stranded by a faulty vehicle. Join the over 100,000 users who <br> trust us with their car needs</h4>
+                <a href="" class="text-decoration-none text-info fontChange2"> Get to know us...</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- GET TO KNOW MOTOFIXAR SECTION STARTS HERE -->
+    <!-- <div class="video-container">
+        <video autoplay muted loop id="video-bg">
+            <source class="video-content" src="./images/Motofixar_main_bgImage.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <div class="text-overlay">
+            <div class="w-75 m-auto text-white video-text">
+                <h4 class="fontChange">Motofixar is a leading platform for your vehicle maintenance needs.</h4>
+                <p class="fontChange2">We bring your car diagnosis and maintenance closer to you wherever you are, and whenever you need it. </p>
+            </div>
+    
+            <div class="w-75 m-auto text-white video-text">
+                <h4 class="fontChange">Never get stranded by a faulty vehicle. Join the over 100,000 users who trust us with their car needs</h4>
+                <a href="" class="text-decoration-none text-info fontChange2"> Get to know us...</a>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- NEW OR EXSITING CUSTOMERS REGISTER OR LOG IN SECTION STARTS HERE -->
+    <div class="d-flex gap-2 justify-content-around flex-column flex-lg-row flex-md-column signUp-JoinDiv" style="margin-top: -6px;">
+
+        <div class="d-flex border border-dark border-3 rounded eachFlexContent">
+            <div style="width: 300px; height: 200px;">
+                <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6641e92998216d8f1622973c_motofixar-register-with-us.jpg" alt="Register with motofixar" class="rounded-end-3" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="my-auto ms-3">
+                <p class="fw-bold fs-5">
+                    New To Motofixar?
+                </p>
+
+                <p>
+                    Sign up to enjoy swift and convenient automobile services.
+                </p>
+                <div class="btn btn-primary">Register</div>
+                <!-- Find out how to link the sign in button to the sign in html -->
+            </div>
+        </div>
+
+        <div class="d-flex border border-dark border-3 rounded eachFlexContent">
+            <div style="width: 300px; height: 200px;">
+                <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6641e928d4af56ea224ef7bf_motofixar-login-to-account.jpg" alt="Login to your motofixar account" class="rounded-end-3" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="my-auto ms-3">
+                <p class="fw-bold fs-5">
+                    Already Have A Motofixar Account?
+                </p>
+
+                <p>
+                    Log in to continue using our services
+                </p>
+                <div class="btn btn-primary" href="./sign-in/">Log In</div>
+                <!-- Find out how to link the sign in button to the sign in html -->
+            </div>
+        </div>
+    </div>
+
+    <!-- SCROLL TO TOP BUTTON START -->
+            
+    <a href="#top"><span id="to-top"><i class="fa-solid fa-arrow-up"></i></span></a>
+
+    <!-- SCROLL TO TOP BUTTON END -->
+
+
+    <!-- SLIDER/CAROUSEL FOR CAR MAINTENANCE HACKS, CAR ISSUE WARNING SIGNALS, CAR TYPES AND TERRAIN, ETC STARTS HERE -->
+    <div class="maintenanceHacks-DIY-carKits-and-types mt-0 pb-5">
+        <p class="w-75 m-auto pt-5 text-white text-center fw-bold mb-5 fs-5 text-uppercase">
+            Learn About Basic Car Maintenance Hacks, Car Issue Warning Signals, Car Types And Their Best-suited Terrain,
+            And Must Have Equipment In Your Vehicle
+        </p>
+
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="overlay-image" style="background-image: url(https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6644e61ab21af831cdaf07f8_motofixar-main-maintenance-hacks.jpeg);">
+                    
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Maintenance Hacks</h5>
+                  <p>Learn basic maintenance hacks.</p>
+                  <a href="./maintenance-hacks/maintenance-hacks.html" class="btn btn-lg btn-primary">Learn More</a>
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="1500">
+                <div class="overlay-image">
+                    <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6644e9d6f90dcf8984abcd70_motofixar-main-DIY.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Do It Yourself</h5>
+                  <p>Spot warning signs signalling an issue and fix it on your own.</p>
+                  <a href="./Do-It-Yourself/do-it-yourself.html" class="btn btn-lg btn-primary">Visit Page</a>
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="1500">
+                <div class="overlay-image">
+                    <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6644eaa7c2927fb139aa66d3_motofixar-main-carTypes.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Cars And Terrains</h5>
+                  <p>Car types and their best-suited terrain.</p>
+                  <a href="./cars-and-terrains/cars-and-terrains.html" class="btn btn-lg btn-primary">Visit Page</a>
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="1500">
+                <div class="overlay-image">
+                    <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/66421ff41e97486f39583323_motofixar-essential-car-items.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Emergency Car Kit</h5>
+                  <p>Vehicle equipment and parts that should always be in your car.</p>
+                  <a href="./car-kit/car-kit.html" class="btn btn-lg btn-primary">Click To view</a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </div>
+    <!-- SLIDER/CAROUSEL FOR CAR MAINTENANCE HACKS, CAR ISSUE WARNING SIGNALS, CAR TYPES AND TERRAIN, ETC ENDS HERE -->
+    
+    <!-- DOWNLOAD MOTOFIXAR APP SECTION STARTS HERE -->
+    <div class="get-our-app text-center">
+        <div class="w-75 m-auto pt-5 mb-5">
+            <h3 class="fw-bold">Ready to Experience the Motofixar Difference?</h3>
+            <p class="fw-bold">With Motofixar, managing your car's maintenance and repair needs <br> is easier 
+                than ever. Simply download the Motofixar app from <br> the App Store or Google 
+                Play Store.
+            </p>
+        </div>
+
+        <div class="playstore-and-appstore mb-5">
+            <span class="btn btn-primary me-2 py-3 px-4 border rounded-5 fw-bold"><i class="fa-brands fa-google-play text-white me-1"></i><a class="text-white text-decoration-none" href="">Download on Playstore</a></span>
+            <span class="btn btn-primary py-3 px-4 border rounded-5 fw-bold"><i class="fa-brands fa-app-store text-white me-1 fw-bold"></i><a class="text-white text-decoration-none" href="">Download on App Store</a></span>
+        </div>
+
+        <div class="phone-display mt-4">
+            <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6650962c14a4ef7b430c3609_motofixar-download-app-removebg-preview.png" alt="">
+        </div>
+    </div>
+
+    <!-- CAR PRODUCTS STORES BASED ON USER'S LOCATION STARTS HERE -->
+    <div class="maintenanceHacks-DIY-carKits-and-types2 py-5">
+        <h3 class="w-75 m-auto text-white text-center fw-bold mb-5 fs-5 text-uppercase">
+            Find out stores closest to you
+        </h3>
+
+        <p class="text-white text-center text-decoration-underline">
+            In need of equipment for your vehicle like lubricants, spare parts, etc? 
+            Discover stores within your location
+        </p>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <div class="overlay-image" style="background-image: url(https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6642573012a2a5c656062323_total-ProductStore.jpg);">
+                    
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Total Energies</h5>
+                  <p>Get To Total Energies Closest To You.</p>
+                  <a href="" class="btn btn-lg btn-primary">Visit</a>
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="1500">
+                <div class="overlay-image">
+                    <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6642573088be6711a7c32778_nnpc-ProductStore.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>NNPC</h5>
+                  <p>Get To NNPC Closest To You.</p>
+                  <a href="" class="btn btn-lg btn-primary">Visit</a>
+                </div>
+              </div>
+              <div class="carousel-item"  data-bs-interval="1500">
+                <div class="overlay-image">
+                    <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664260b45c3578049ee9b377_mobil-ProductStore.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-block d-md-block">
+                  <h5>Mobil</h5>
+                  <p>Get To Mobil Closest To You.</p>
+                  <a href="" class="btn btn-lg btn-primary">Visit</a>
+                </div>
+              </div>
+              
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
+    </div>
+    <!-- CAR PRODUCTS STORES BASED ON USER'S LOCATION ENDS HERE -->
+
+    <!-- OUR TRUSTED PARTNERS SECTION STARTS HERE -->
+    <div class="products-and-title">
+
+        
+        <h1>Our Trusted Partners</h1>
+        <div class="products">
+        
+            <div class="p1">
+                <img src="./images/Dropbox.svg" alt="Skyline ICT Consult Ltd">
+                <p>Skyline ICT</p>
+                <p>I.C.T. services provider, and software training institute.</p>
+
+                <div class="learn-more">
+                    <a href="https://skylineict.com">Go to Skyline ICT</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+                
+            </div>
+            <div class="p2">
+                <img src="./images/Sign.svg" alt="Opolo Global">
+                <p>Opolo Global Innovation</p>
+                <p>Innovation enabler, incubator and accelerator.</p>
+
+                <div class="learn-more">
+                    <a href="https://opolo.global">Go to Opolo Global</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="p3">
+                <img src="./images/Docsend.svg" alt="MCK Solar Enterprises">
+                <p>MCK Solar Enterprises</p>
+                <p>Sale, maintenance and repairs of solar inverters and equipment.</p>
+
+                <div class="learn-more">
+                    <a href="#">Go to MCK Solar Ent</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="p4">
+                <img src="./images/Backup.svg" alt="Obidients Tech Space">
+                <p>Obidients Tech Space</p>
+                <p>Technology training empowering youths with IT skills.</p>
+
+                <div class="learn-more">
+                    <a href="https://obidientstechspace.com/">Go to OTS</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="products" >
+        
+            <div class="p1">
+                <img src="./images/Capture.svg" alt="We_SAP Gadgets">
+                <p>We_SAP Gadgets</p>
+                <p>Wholesale and retail of all kinds of phones and gadgets.</p>
+
+                <div class="learn-more">
+                    <a href="https://www.instagram.com/we_sapgadgets?igsh=MWRjZnJrOW9meTQ2bg==">Go to We_SAP</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="p2">
+                <img src="./images/Transfer.svg" alt="Slither">
+                <p>Slither</p>
+                <p>Clothing and fashion brand with a touch of class.</p>
+
+                <div class="learn-more">
+                    <a href="#">Go to Slither</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="p3">
+                <img src="./images/Paper.svg" alt="Kingsweys">
+                <p>Kingsweys</p>
+                <p>Capital savings and investment platform that offers loans.</p>
+
+                <div class="learn-more">
+                    <a href="https://kingsweys.com">Go to Kingsweys</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="p4">
+                <img src="./images/Passwords.svg" alt="password">
+                <p>Spylt</p>
+                <p>Max Caffeinated Chocolate Milk.</p>
+
+                <div class="learn-more">
+                    <a href="https://spylt.com">Go to Spylt</a>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- OUR TRUSTED PARTNERS SECTION ENDS HERE -->
+
+
+    <!-- DATA PRIVACY AND SAFETY STARTS HERE -->
+    <div class="container-fluid p-5 privacy-policy-minHeight">
+        <div>
+            <h2 class="text-center text-capitalize">
+                Your data is safe with us
+            </h2>
+
+            <div class="d-flex gap-5 justify-content-center fw-bold mb-5">
+                <p>Safe.</p>
+                <p>Secured.</p>
+                <p>Private.</p>
+            </div>
+
+            <p class="text-center data-usageP">
+                We value your privacy and are constantly up to date with measures to ensure your data is safe with us, and your privacy is protected from vulnerabilities and hacks.
+            </p>
+        </div>
+
+        <div class="motofixar-privacy-policy d-flex gap-1 justify-content-center">
+            <p class="data-usageP">
+                Find out our privacy policies and how we use your data.
+            </p>
+            <span>
+                <a onclick="displayText()" href="" class="data-usageP">Privacy Policy <label for="check"><i class="fa-regular fa-square-check text-primary data-usageP"></i></label></a>
+                <input type="checkbox" name="privacyPoli" id="check">
+            </span>
+        </div>
+
+        <!-- The Privacy Policy and terms & conditions will be added here and hidden. Then, the span a i above will be used 
+        to control the visibility (show/hide) of the content -->
+        <div id="textField" class="main-privacy-policyDiv py-5 d-none">
+            <div class="permissions mb-5">
+                <h5 class="fw-bold permissions-fs">Your Stuff & Your Permissions</h5>
+                <p class="permissions-fs-p">When you use our Services, you provide us with things like 
+                    your files, content, messages, contacts, and so on (“Your Stuff”). 
+                    Your Stuff is yours. These Terms don't give us any rights to Your Stuff 
+                    except for the limited rights that enable us to offer the Services.
+                </p>
+                <p class="permissions-fs-p">
+                    You may need to register for an account to access the Services, and we 
+                    may create an account for you so that you can interact with the Services.
+                </p>
+                <p class="permissions-fs-p">
+                    Our Services include a suite of apps and websites. To help you stay 
+                    productive, when you use the same account to access different parts of 
+                    the suite, Your Stuff may come with you.
+                </p>
+                <p class="permissions-fs-p">
+                    We need your permission to do things like tracking your activities, reviewing 
+                    it, and sharing it when you ask us to. Our Services also provide 
+                    you with features like commenting, sharing, searching, repairs history, 
+                    maintenance previews, location tracking, easy sorting 
+                    and organization, and personalization to help reduce numerous tasks. To provide 
+                    these and other features, Motofixar accesses, stores, and scans Your Stuff. 
+                    You give us permission to do those things, and this permission extends 
+                    to our affiliates and trusted third parties we work with.
+                </p>
+            </div>
+
+            <div class="your-responsibilities mt-5">
+                <h5 class="fw-bold permissions-fs">Your Responsibilities</h5>
+                <p class="permissions-fs-p">
+                    Your use of our Services must comply with our Acceptable Use Policy. 
+                    Content in the Services may be protected by others' intellectual 
+                    property rights. Please don't copy, upload, download, or share 
+                    content unless you have the right to do so.
+                </p>
+                <p class="permissions-fs-p">
+                    Motofixar may review your conduct and content for compliance with 
+                    these Terms and our Acceptable Use Policy. We aren't responsible 
+                    for the conduct of users in physical locations when they schedule a 
+                    repairs or maintenance appointment via the Services of our platform.
+                </p>
+                <p class="permissions-fs-p">
+                    Help us keep Your Stuff protected. Safeguard your password to the 
+                    Services, and keep your account information current. Don't share 
+                    your account credentials or give others access to your account.
+                </p>
+                <p class="permissions-fs-p">
+                    You may use our Services only as permitted by applicable law, 
+                    including export control laws and regulations. Finally, to use our 
+                    Services, you must be at least 13 years old if you reside in the Nigeria,  
+                    and 16 if you reside anywhere else. If the law where you 
+                    reside requires that you must be older in order for Motofixar to 
+                    lawfully provide the Services to you without parental consent 
+                    (including use of your personal data), then you must be that approved age to use our services.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- DATA PRIVACY AND SAFETY ENDS HERE -->
+
+    <!-- FIRST FOOTER SECTION STARTS HERE -->
+    <div class="big-semiFooter">
+        <div class="d-flex joinCommunity-main">
+            <div class="motofixar-backgroundImg" style="width: 48%; height: 250px;">
+                <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664349929520d1916dc24a50_Motofixar-background-image.png" alt="motofixar background image" style="width: 100%; height: 100%;">
+            </div>
+
+            <div class="align-content-center ms-5" style="min-height: 250px;">
+                <h4 class="fw-bold">Need to stay connected to technicians?</h4>
+                <p class="mb-5">
+                    Motofixar not only connects you with a technician, we help you <br> monitor
+                    the maintenance history of your car among others. 
+                </p>
+                <a href="" class="text-decoration-none py-3 px-2 joinCommunity-bg">
+                    <!-- This is a link to redirect to our discord platform that'll be created later. -->
+                    Join Our Community
+                 </a>
+            </div>
+        </div>
+
+        <div class="semi-footerDiv py-4">
+            <div class=" semi-footerDiv-a">
+                <p>Car Issue Reporting</p>
+                <p>Diagnosis</p>
+                <p>Technical Support</p>
+                <p>Repairs Scheduling</p>
+            </div>
+
+            <div class=" semi-footerDiv-a">
+                <p>Maintenance</p>
+                <p>Care Car</p>
+                <p>Car Products</p>
+                <p>Emergency Services</p>
+                <p>Support</p>
+                <p>Repairs History</p>
+                <p>Community</p>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- FIRST FOOTER SECTION ENDS HERE -->
+
+
+    <!-- MAIN FOOTER SECTION STARTS HERE -->
+    <div class="main-footer p-5">
+        <div class="mb-5 main-footerFlex">
+            <div>
+                <h3 class="text-white text-bold fs-4">About Motofixar</h3>
+                <ul class="list-unstyled">
+                    <li><a href="./about-us/about-us.html" class="text-white main-footerA">About Us</a></li>
+                    <li><a href="" class="text-white main-footerA">Terms and Conditions</a></li>
+                    <li><a href="" class="text-white main-footerA">Privacy Policy</a></li>
+                    <li><a href="" class="text-white main-footerA">Cookie Policy</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white text-bold fs-4">Need Help</h3>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-white main-footerA">Help Center</a></li>
+                    <li><a href="" class="text-white main-footerA">FAQs</a></li>
+                    <li><a href="" class="text-white main-footerA">Self Diagnosis</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white text-bold fs-4">Our Team</h3>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-white main-footerA">Blog</a></li>
+                    <li><a href="" class="text-white main-footerA">Discord</a></li>
+                    <li><a href="" class="text-white main-footerA">Developers</a></li>
+                    <li><a href="" class="text-white main-footerA">Partners</a></li>
+                    <li><a href="" class="text-white main-footerA">Referrals</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="text-white text-bold fs-4">Locate Stores</h3>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-white main-footerA">Spare Parts</a></li>
+                    <li><a href="" class="text-white main-footerA">lubricants</a></li>
+                    <li><a href="" class="text-white main-footerA">First Aid</a></li>
+                    <li><a href="" class="text-white main-footerA">Car Essentials</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div class="motofixar-footer-socials text-white mb-5" style="height: 80px;">
+            <h4>Join our socials</h4>
+            <div class="social-handles d-flex gap-3 fs-4">
+                <!-- for facebook, youtube, instagram, twitter -->
+                <span class="me-2 forHover"><a href=""><i class="fa-brands fa-facebook text-white"></i></a></span>
+                <span class="me-2 forHover"><a href=""><i class="fa-brands fa-youtube text-white"></i></a></span>
+                <span class="me-2 forHover"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></span>
+                <span class="me-2 forHover"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></span>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="contactUs-color-change"><strong>Contact us:</strong> francisalaetuo@gmail.com</p>
+        </div>
+
+        <div class="d-flex gap-2 bg-danger">
+            <div><i class="fa-regular fa-copyright"></i></div>
+            <div><p class="contactUs-color-change">2024 Motofixar, Inc. All Rights Reserved.</p></div>
+        </div>
+
+
+    </div>
+    <!-- MAIN FOOTER SECTION ENDS HERE -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="motofixar.js"></script>
+
+</body>
+</html>

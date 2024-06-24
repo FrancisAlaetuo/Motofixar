@@ -1,0 +1,131 @@
+/* Navbar CSS (header and sidebar) */
+
+.header-bg{
+    background-color: #0b0000;
+}
+
+.forSpacing{
+    letter-spacing: 0.15rem;
+    font-size: bolder;
+    color: rgb(187, 155, 155);
+}
+
+.forSidebarSpacing{
+    letter-spacing: 0.15rem;
+    font-size: bolder;
+    color: rgb(187, 155, 155);
+}
+
+.signUpUniqueColor{
+    background-color: #1877F2;
+    color: white;
+}
+
+.signUpUniqueColor:hover{
+    background-color: #3980dd;
+    transition: 0.2s ease-in-out;
+    color: rgb(236, 232, 232);
+    
+}
+
+.loginHover{
+    color: white;
+    background-color: rgba(214, 213, 213, 0.1);
+}
+
+.loginHover:hover{
+    background-color: rgba(214, 213, 213, 0.3);
+    transition: 0.2s ease-in-out;
+    color: rgb(236, 232, 232);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOTOFIXAR FOOTER CSS STARTS HERE */
+.main-footer {
+    background-color: #0b0000;
+}
+
+.main-footerFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.motofixar-footer-socials {
+    margin-left: 84px;
+}
+
+.main-footerA {
+    text-decoration: none;
+}
+
+.main-footerA:hover {
+    text-decoration: underline;
+}
+
+.contactUs-color-change {
+    color: rgb(99, 98, 98);
+}
+
+
+
+
+/* Responsiveness begins here */
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+}
+
+@media (max-width: 850px) {
+    /* FOOTER SECTION RESPONSIVENESS */
+    .main-footerFlex {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        gap: 25px;
+        
+    }
+
+    .generalCars {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    /* .car-type {
+        width: 90%;
+    } */
+
+}
