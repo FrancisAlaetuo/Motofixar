@@ -26,6 +26,7 @@ body {
     position: fixed;
     transition: width 0.3s;
     overflow: hidden;
+    z-index: 99;
 }
 
 .sidebar:hover, .sidebar.expanded {
@@ -158,6 +159,16 @@ body {
     padding: 0 10px 0 40px;
  }
 
+.dont_be_stranded{
+    background-image: url(https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/667ab8039c54c174a9964361_never_get_stuck2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 4;
+    
+}
+
  /* .right2 button {
     padding: 10px 15px;
     border-radius: 5px;
@@ -185,3 +196,16 @@ body {
     
 }
  */
+
+
+/* Responsiveness Starts Here */
+
+@media screen and (max-width:800px) {
+    .forFont_Size {
+        font-size: 16px;
+    }
+
+    .forFont_Size2 {
+        font-size: 13px;
+    }
+}
