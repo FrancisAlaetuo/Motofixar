@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book A Technician</title>
+    <link rel="stylesheet" href="reportIssue.css">
+    <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg-dark-subtle">
+
+  <!-- Hamburg menu to return to previous page/tab -->
+  <div class="text-end me-5 pt-5 fs-3">
+    <a class="text-secondary" href="../technicianDashboard/technician-dashboard.html"><i class="fas fa-bars"></i></a>
+  </div>
+
+    <section id="book-technician" class="my-3 text-center">
+        <div class="mb-5">
+            <h4 class="fs-4" style="color: rgb(119, 37, 37);">In need of emergency car repair?</h4>
+            <h4 class="fs-5">Schedule an appointment with a technician within your location now!</h4>
+        </div>
+        <!-- <p class="mb-5">Enter your location to proceed.</p>
+        <form id="book-technician-form">
+            <label class="fw-bold fs-5" for="location">Location:</label>
+            <input type="text" id="location" name="location" required>
+            <button class="px-3 py-2 bg-warning border rounded-2" type="submit">Book Technician</button>
+            <p>NOTE: Enter your exact location to be enable us get you to a skilled technician closest <br> to you.</p>
+        </form> -->
+
+        <div class="main-carIssue-reporting-and-appointment mt-5 pb-5 w-75 m-auto">
+            <div>
+                <h3 class="text-center text-uppercase text-secondary text-bold my-5 diagnosis-interactionText">Let's Help YOu Get To The Nearest Technician!</h3>
+            </div>
+    
+            <div class="emergencyCheck text-center">
+                <p><strong>Have an emergency? </strong> Want to locate an automobile technician closest to you?</p>
+                <p>Please fill out your details to proceed.</p>
+            </div>
+    
+            <div class="emergency-reportingInfo text-center">
+                <p class="mb-5">
+                    <strong>First, enter your current location in the field below to proceed.</strong> <br>
+                    (Ensure you enter your accurate location as this will help us schedule an apointment with the technician closest to you.)
+                </p>
+    
+                <div class="right2">
+                    <span class="input-container2">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                        <input type="search" name="location" id="location" placeholder="Enter your location to proceed" required>
+                    </span>
+                    <button onclick="displayDiv()" id="schedule-repairs">BOOK TECHNICIAN</button>
+                    <!-- Find out how to make this button, and every other button or btn class, function with JavaScript -->
+                </div>
+    
+                <p class="mt-3">
+                    <mark><strong>NOTE:</strong> By clicking "Proceed", your location data will be accessed and used to, swiftly, schedule an appoinment with the technician closest to you.</mark>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- <div class="experiment" id="experiment">
+
+    </div> -->
+    <div class="closest-technician-display border border-light-subtle rounded-4 p-4" id="closest-technician-display">
+        <div class="welcome-intro">
+            <h4 class="text-center text-secondary fw-bold">We are connecting you to a skilled technician situated in your location</h4>
+            <p class="text-center text-secondary">Kindly retrieve the details below to connect with the technician</p>
+        </div>
+
+        <div class="technician-display">
+            <h4 class="text-center text-success">Technician Found!</h4>
+            <div class="technician-found">
+                <img class="border border-light-subtle rounded-3" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664ce6dffa37cbe3e31cdd45_technician-found.webp" alt="technician successfully connected">
+            </div>
+            <div class="technician-details pt-4">
+                <h4 class="fs-5 text-secondary" id="ownerName"></h4>
+                <h4 class="fs-5 text-secondary" id="workshopName"></h4>
+                <h4 class="fs-5 text-secondary" id="workshopResidence"></h4>
+                <h4 class="fs-5 text-secondary" id="workshopNumber"></h4>
+                <h4 class="fs-5 text-success" id="exactDistance"></h4>
+            </div>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="reportIssue.js" defer></script>
+</body>
+</html>
