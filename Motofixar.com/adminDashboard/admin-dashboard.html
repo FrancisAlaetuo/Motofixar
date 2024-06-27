@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="admin-dashboard.css">
+    <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class=" dont_be_stranded">
+    <div style="padding: 20px 0px; background-color: rgb(119, 37, 37); position: fixed; left: 0; right: 0; z-index: 99;"></div>
+    <div class="dashboard">
+        <aside class="sidebar">
+            <div class="logo mt-5">
+                <!-- <h2>CarRepair</h2> -->
+                <!-- Find out how to make this appear on toggle icon click also -->
+                <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cb5d03084ff499b0fe071_Motofixar_Snipped-removebg-preview.png" alt="">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li onclick="window.location.href='../userDashboard-home/home.html'"><a href="#"><i class="fa-solid fa-house"></i><span>Dashboard</span></a></li>
+                    <li onclick="window.location.href='../userDashboard-schedule/book-technician.html'"><a href="#"><i class="fa-solid fa-users-line"></i><span>Manage Users</span></a></li>
+                    <li onclick="window.location.href='../userDashboard-repairs/repairs-history.html'"><a href="#"><i class="fa-solid fa-person-dots-from-line"></i><span>Manage Technicians</span></a></li>
+                    <li onclick="window.location.href='../userDashboard-reviews/reviews.html'"><a href="#"><i class="fa-regular fa-calendar-check"></i><span>Manage Appointments</span></a></li>
+                    <!-- <li onclick="window.location.href='../userDashboard-reviews/reviews.html'"><a href="#"><i class="fa-solid fa-check-to-slot"></i><span>Review Technician</span></a></li> -->
+                    <li onclick="window.location.href='../userDashboard-settings/settings.html'"><a href="#"><i class="fas fa-cog"></i> <span>Settings</span></a></li>
+                    <li onclick="window.location.href='../userDashboard-logout/logout.html'"><a href="#"><i class="fas fa-sign-out-alt"></i> <span>Logout</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+        
+        <main class="main-content" style="background-color: rgba(255, 255, 255, 0.15) !important; backdrop-filter: blur(10px) !important; min-height: 566px; margin-top: 40px;">
+            <header class="header">
+                <h1 class="fs-4 ms-4 fw-bold text-uppercase" style="color: rgb(119, 37, 37);">Welcome back!</h1>
+                <button class="menu-toggle" onclick="toggleMenu()"><i class="fas fa-bars"></i></button>
+            </header>
+
+            <div class="mt-5 text-body-emphasis">
+                <h4 class="fw-bold forFont_Size">Pick up where you left off!</h4>
+                <p class="forFont_Size2">Jumb right in and have your car maintenance and repairs need taken care of by qualified professionals.</p>
+            </div>
+
+            <div class="mt-5">
+                <div class="mt-5 text-body-emphasis">
+                    <h5 class="fw-bold forFont_Size">Your Safety And Satisfaction Are Our Responsibilities.</h5>
+                    <p class="forFont_Size2">Motofixar Guarantees You Never Get Stranded On The Way!</p>
+                </div>
+    
+                <div class="mt-5 text-body-emphasis">
+                    <h5 class="fw-bold forFont_Size">Out With The Old, In With The New...</h5>
+                    <p class="forFont_Size2">Our up-to-date features means that you get your satisfaction anytime, anywhere!</p>
+                </div>
+    
+                <div class="mt-5 text-body-emphasis">
+                    <h5 class="fw-bold forFont_Size">We Worry, You Drive...</h5>
+                    <p class="forFont_Size2">Save yourself the hassle of endlessly searching for the nearest mechanic.
+                        Let that be our worry.
+                    </p>
+                </div>
+            </div>
+
+        </main>
+    </div>
+    <!-- <div id="modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="admin-dashboard.js" defer></script>
+</body>
+</html>
