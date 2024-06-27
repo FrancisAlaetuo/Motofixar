@@ -106,14 +106,19 @@ body {
 
 
 
-
-
+/* Responsiveness starts here */
+@media screen and (max-width: 1050px) {
+    .closest-technician-display {
+        margin-top: 20px;    
+    }
+}
 
 @media (max-width: 991px){
  
     .diagnosis-interactionText{
         font-size: 20px;
     }
+
 }
 
 @media (max-width: 850px) {
@@ -135,6 +140,7 @@ body {
 
     .closest-technician-display {
         width: 85%;
+        margin-top: 30px;
         
     }
 
@@ -159,6 +165,7 @@ body {
 
     .closest-technician-display {
         width: 100%;
+        margin-top: 30px;
     }
 
     .technician-details {
