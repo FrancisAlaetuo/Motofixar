@@ -16,6 +16,13 @@ body {
     position: relative;
 }
 
+.input-container2 textarea::placeholder {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    color: #d8c9c9;  
+}
+
  .input-container2 input {
     width: 350px;
     height: 40px;
@@ -26,9 +33,15 @@ body {
     font-weight: 400;
     padding: 0 10px 0 40px;
  }
+/* 
+.right2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
 
 .right2 button {
-    padding: 10px 15px;
+    padding: 15px 35px;
     border-radius: 5px;
     border: 1px solid rgb(187, 155, 155);
     background-color: rgb(187, 155, 155);
@@ -128,7 +141,7 @@ body {
      }
 
      .right2 button {
-        padding: 12px 10px;
+        padding: 15px 35px;
         border-radius: 5px;
         font-size: 13px;
     }
@@ -152,7 +165,7 @@ body {
      }
 
      .right2 button {
-        padding: 12px 4px;
+        padding: 15px 35px;
         border-radius: 5px;
         font-size: 13px;
     }
