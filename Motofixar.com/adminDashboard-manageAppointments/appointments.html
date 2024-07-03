@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repairs History</title>
-    <link rel="stylesheet" href="repairs-history.css">
+    <title>Manage Appointments</title>
+    <link rel="stylesheet" href="appointments.css">
     <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/663cafab155aa48290dff09a_Motofixar%20logo.jpg" type="image/x-icon">
@@ -17,43 +17,46 @@
 
   <!-- Hamburg menu to return to previous page/tab -->
   <div class="text-end me-5 pt-5 fs-3">
-    <a class="text-secondary" href="../userDashboard/user-dashboard.html"><i class="fas fa-bars"></i></a>
+    <a class="text-secondary" href="../adminDashboard/admin-dashboard.html"><i class="fas fa-bars"></i></a>
   </div>
 
     <section id="services" class="mt-5 pt-2 pb-5">
-        <h2 class="mb-3 text-center text-lg-start mb-5 mb-lg-2" style="color: rgb(119, 37, 37); margin-left: 58px;">Repairs History:</h2>
+        <h2 class="mb-3 text-center text-lg-start mb-5 mb-lg-2" style="color: rgb(119, 37, 37); margin-left: 58px;">Manage Appointments:</h2>
         <div class="d-flex flex-column align-items-center flex-lg-row flex-md-column flex-sm-column gap-5 gap-lg-0 justify-content-around">
             <div id="active-repairs" class="my-auto ms-3 bg-secondary-subtle text-center py-3 px-4 rounded-3" style="width: 350px; box-shadow: 2px 2px 10px rgb(114, 114, 114);">
-                <p class="fw-bold fs-5">
-                    Ongoing Repairs
+                <p class="fw-bold fs-6">
+                    Ongoing Appointments
                 </p>
 
                 <p>
-                    Find out your currently active repairs appointment.
+                    Review ongoing appointments.
                 </p>
-                <div class="btn btn-primary"  onclick="window.location.href='../ongoingRepairs/ongoing-repairs.html'">View</div>
+                <!-- Note: Design a page for the link below and link it by replacing the # with the html file -->
+                <div class="btn btn-primary"  onclick="window.location.href='#'">Review</div>
             </div>
 
             <div id="completed-repairs" class="my-auto ms-3 bg-secondary-subtle text-center py-3 px-4 rounded-3" style="width: 350px; box-shadow: 2px 2px 10px rgb(114, 114, 114);">
-                <p class="fw-bold fs-5">
-                    Completed Repairs
+                <p class="fw-bold fs-6">
+                    Completed Appointments
                 </p>
 
                 <p>
-                    Find out your completed repairs appointment.
+                    Review completed appointments.
                 </p>
-                <div class="btn btn-primary" onclick="window.location.href='../completedRepairs/completed-repairs.html'">View</div>
+                <!-- Note: Design a page for the link below and link it by replacing the # with the html file -->
+                <div class="btn btn-primary" onclick="window.location.href='#'">Review</div>
             </div>
 
             <div id="cancelled-repairs" class="my-auto ms-3 bg-secondary-subtle text-center py-3 px-4 rounded-3" style="width: 350px; box-shadow: 2px 2px 10px rgb(114, 114, 114);">
-                <p class="fw-bold fs-5">
-                    Cancelled Repairs
+                <p class="fw-bold fs-6">
+                    Cancelled Appointments
                 </p>
 
                 <p>
-                    Find out your cancelled repairs appointment.
+                    Review cancelled appointments.
                 </p>
-                <div class="btn btn-primary" onclick="window.location.href='../cancelledRepairs/cancelled-repairs.html'">View</div>
+                <!-- Note: Design a page for the link below and link it by replacing the # with the html file -->
+                <div class="btn btn-primary" onclick="window.location.href='#'">Review</div>
             </div>
         </div>
     </section>

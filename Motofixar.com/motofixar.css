@@ -403,6 +403,13 @@ span.ext.dropdown-center:hover li a i {
     justify-content: center;
 }
 
+.motofixar-backgroundImg {
+    width: 48%;
+    height: 250px;
+}
+
+
+
 
 /* MOTOFIXAR FOOTER CSS STARTS HERE */
 .main-footer {
@@ -560,7 +567,9 @@ a #to-top i {
     .semi-footerDiv-a {
         display: grid;
         grid-template-columns: 45% 45%;
+        text-align: center;
     }
+
 }
 
 
@@ -630,12 +639,16 @@ a #to-top i {
     font-size: 14px;
 }
 
-
-
-
 /* .video_contentOverlay{
     margin-top: 10px;
     padding: 15px 0;
 } */
 
+@media (max-width: 300px) {
+    }.motofixar-backgroundImg {
+        width: 80%;
+    }
 }
+
+
+

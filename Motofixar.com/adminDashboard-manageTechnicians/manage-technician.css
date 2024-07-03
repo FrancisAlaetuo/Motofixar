@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    /* margin: 0;
+    font-family: Arial, sans-serif; */
+    background-color: #f4f4f4;
+}
+
+.user-activities {
+    width: 96%;
+    margin: auto;
+}
+
+td{
+    font-size: 12px;
+}
+
+/* Note: Remember to work on the responsiveness of this page to make it responsive */
