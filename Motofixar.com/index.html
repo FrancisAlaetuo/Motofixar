@@ -11,6 +11,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- The above link on line 14 is the CSS link for the animation website. The JS link is pasted below. Use them for other files -->
 </head>
 <body style="background-color: #f1f1f1;">
     <!-- Navbar for header starts here -->
@@ -179,7 +181,7 @@
     <!-- NEW OR EXSITING CUSTOMERS REGISTER OR LOG IN SECTION STARTS HERE -->
     <div class="d-flex gap-2 justify-content-around flex-column flex-lg-row flex-md-column signUp-JoinDiv" style="margin-top: -6px;">
 
-        <div class="d-flex border border-dark border-3 rounded eachFlexContent">
+        <div class="d-flex border border-dark border-3 rounded eachFlexContent" data-aos="zoom-in" data-aos-duration="1500">
             <div style="width: 300px; height: 200px;">
                 <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6641e92998216d8f1622973c_motofixar-register-with-us.jpg" alt="Register with motofixar" class="rounded-end-3" style="width: 100%; height: 100%;">
             </div>
@@ -197,7 +199,7 @@
             </div>
         </div>
 
-        <div class="d-flex border border-dark border-3 rounded eachFlexContent">
+        <div class="d-flex border border-dark border-3 rounded eachFlexContent" data-aos="zoom-in" data-aos-duration="2000">
             <div style="width: 300px; height: 200px;">
                 <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6641e928d4af56ea224ef7bf_motofixar-login-to-account.jpg" alt="Login to your motofixar account" class="rounded-end-3" style="width: 100%; height: 100%;">
             </div>
@@ -704,6 +706,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="motofixar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 </body>
 </html>
