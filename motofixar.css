@@ -3,12 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-}
-
-body{
-    /* height: 200vh; */
-    overflow-x: hidden !important;
-    
+    overflow-x: hidden;
 }
 
 /* Navbar CSS (header and sidebar) */
