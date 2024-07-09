@@ -381,7 +381,7 @@ span.ext.dropdown-center:hover li a i {
 .joinCommunity-main {
     border-bottom: 8px solid rgb(255, 139, 97);
     min-height: 200px;
-    height: 1%;
+    /* height: 1%; */
 }
 
 .joinCommunity-bg {
