@@ -94,13 +94,13 @@
                 </a>
 
                 <ul class="dropdown-menu ps-3">
-                    <div class="btn btn-button w-75 mx-2">SIGN IN</div>
+                    <div onclick="window.location.href='./sign-in/signin.html'" class="btn btn-button w-75 mx-2">SIGN IN</div>
                     <!-- Find out how to link the sign in button to the sign in html -->
 
                     <hr class="w-100">
-                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-regular fa-user"></i> My Account</a></li>
-                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-regular fa-calendar-check"></i> Appointments</a></li>
-                    <li><a class="dropdown-item" href="./sign-in/signin.html"><i class="fa-solid fa-screwdriver-wrench"></i> Repairs History</a></li>
+                    <li onclick="window.location.href='./sign-in/signin.html'" style="cursor: pointer;"><a class="dropdown-item"><i class="fa-regular fa-user"></i> My Account</a></li>
+                    <li onclick="window.location.href='./sign-in/signin.html'" style="cursor: pointer;"><a class="dropdown-item"><i class="fa-regular fa-calendar-check"></i> Appointments</a></li>
+                    <li onclick="window.location.href='./sign-in/signin.html'" style="cursor: pointer;"><a class="dropdown-item"><i class="fa-solid fa-screwdriver-wrench"></i> Repairs History</a></li>
                   </ul>
             </span>
 
@@ -116,8 +116,8 @@
                     
                     <li><a class="dropdown-item" href="#"> Help Center</a></li>
                     <li><a class="dropdown-item" href="#"> FAQs</a></li>
-                    <li><a class="dropdown-item" href="#"> Upgrade To Premium</a></li>
-                    <li><a class="dropdown-item" href="#">Self Diagnosis</a></li>
+                    <li onclick="window.location.href='./sign-in/signin.html'"><a class="dropdown-item" href="#"> Upgrade To Premium</a></li>
+                    <li onclick="window.location.href='./sign-in/signin.html'"><a class="dropdown-item" href="#">Self Diagnosis</a></li>
                     
 
                     <hr class="w-100">
@@ -152,7 +152,7 @@
     
             <div class="text-white text-center video-text">
                 <h4 class="fontChange">Never get stranded by a faulty vehicle. Join the over 100,000 users <br> who trust us with their car needs.</h4>
-                <a href="" class="text-decoration-none text-info fontChange2"> Get to know us...</a>
+                <a href="./about-us/about-us.html" class="text-decoration-none text-info fontChange2"> Get to know us...</a>
             </div>
         </div>
     </div>
@@ -195,7 +195,7 @@
                 <p class="text-light fw-light">
                     Sign up to enjoy swift and convenient automobile services.
                 </p>
-                <div class="btn btn-primary">Register</div>
+                <div onclick="window.location.href='./sign-up/register.html'" class="btn btn-primary">Register</div>
                 <!-- Find out how to link the sign in button to the sign in html -->
             </div>
         </div>
@@ -213,7 +213,7 @@
                 <p class="text-light fw-light">
                     Log in to continue using our services
                 </p>
-                <div class="btn btn-primary" href="./sign-in/">Log In</div>
+                <div onclick="window.location.href='./sign-in/signin.html'" class="btn btn-primary">Log In</div>
                 <!-- Find out how to link the sign in button to the sign in html -->
             </div>
         </div>
@@ -229,7 +229,7 @@
 
     <!-- SLIDER/CAROUSEL FOR CAR MAINTENANCE HACKS, CAR ISSUE WARNING SIGNALS, CAR TYPES AND TERRAIN, ETC STARTS HERE -->
     <div class="maintenanceHacks-DIY-carKits-and-types mt-0 pb-5">
-        <p class="w-75 m-auto pt-5 text-white text-center fw-bold mb-5 fs-5 text-uppercase">
+        <p class="w-75 m-auto pt-5 text-white text-center fw-bold mb-5 fs-5 text-uppercase" data-aos="zoom-out-up" data-aos-duration="1500">
             Learn About Basic Car Maintenance Hacks, Car Issue Warning Signals, Car Types And Their Best-suited Terrain,
             And Must Have Equipment In Your Vehicle
         </p>
@@ -309,8 +309,10 @@
         </div>
 
         <div class="playstore-and-appstore mb-5">
-            <span class="btn btn-primary me-2 py-3 px-4 border rounded-5 fw-bold"><i class="fa-brands fa-google-play text-white me-1"></i><a class="text-white text-decoration-none" href="">Download on Playstore</a></span>
-            <span class="btn btn-primary py-3 px-4 border rounded-5 fw-bold"><i class="fa-brands fa-app-store text-white me-1 fw-bold"></i><a class="text-white text-decoration-none" href="">Download on App Store</a></span>
+            <!-- Change this span back to the commented one after project has been approved!!! -->
+            <!-- <span class="btn btn-primary me-2 py-3 px-4 border rounded-5 fw-bold"><i class="fa-brands fa-google-play text-white me-1"></i><a class="text-white text-decoration-none" href="">Download on Playstore</a></span> -->
+            <span class="btn btn-primary me-2 py-3 px-4 border rounded-5 fw-bold downloadApp-width" data-aos="zoom-in-down" data-aos-duration="1000"><i class="fa-brands fa-google-play text-white me-1"></i><a class="text-white text-decoration-none" href="./adminDashboard/admin-dashboard.html">Admin Dashboard!</a></span>
+            <span class="btn btn-primary py-3 px-4 border rounded-5 fw-bold downloadApp-width" data-aos="zoom-in-down" data-aos-duration="1000"><i class="fa-brands fa-app-store text-white me-1 fw-bold"></i><a class="text-white text-decoration-none" href="">Download on App Store</a></span>
         </div>
 
         <div class="phone-display mt-4">
@@ -387,11 +389,11 @@
     <div class="products-and-title">
 
         
-        <h1>Our Trusted Partners</h1>
+        <h1 data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500">Our Trusted Partners</h1>
         <div class="products">
         
             <div class="p1">
-                <img src="./images/Dropbox.svg" alt="Skyline ICT Consult Ltd">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Dropbox.svg" alt="Skyline ICT Consult Ltd">
                 <p>Skyline ICT</p>
                 <p>I.C.T. services provider, and software training institute.</p>
 
@@ -402,7 +404,7 @@
                 
             </div>
             <div class="p2">
-                <img src="./images/Sign.svg" alt="Opolo Global">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Sign.svg" alt="Opolo Global">
                 <p>Opolo Global Innovation</p>
                 <p>Innovation enabler, incubator and accelerator.</p>
 
@@ -412,7 +414,7 @@
                 </div>
             </div>
             <div class="p3">
-                <img src="./images/Docsend.svg" alt="MCK Solar Enterprises">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Docsend.svg" alt="MCK Solar Enterprises">
                 <p>MCK Solar Enterprises</p>
                 <p>Sale, maintenance and repairs of solar inverters and equipment.</p>
 
@@ -422,7 +424,7 @@
                 </div>
             </div>
             <div class="p4">
-                <img src="./images/Backup.svg" alt="Obidients Tech Space">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Backup.svg" alt="Obidients Tech Space">
                 <p>Obidients Tech Space</p>
                 <p>Technology training empowering youths with IT skills.</p>
 
@@ -436,7 +438,7 @@
         <div class="products" >
         
             <div class="p1">
-                <img src="./images/Capture.svg" alt="We_SAP Gadgets">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Capture.svg" alt="We_SAP Gadgets">
                 <p>We_SAP Gadgets</p>
                 <p>Wholesale and retail of all kinds of phones and gadgets.</p>
 
@@ -446,7 +448,7 @@
                 </div>
             </div>
             <div class="p2">
-                <img src="./images/Transfer.svg" alt="Slither">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Transfer.svg" alt="Slither">
                 <p>Slither</p>
                 <p>Clothing and fashion brand with a touch of class.</p>
 
@@ -456,7 +458,7 @@
                 </div>
             </div>
             <div class="p3">
-                <img src="./images/Paper.svg" alt="Kingsweys">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Paper.svg" alt="Kingsweys">
                 <p>Kingsweys</p>
                 <p>Capital savings and investment platform that offers loans.</p>
 
@@ -466,7 +468,7 @@
                 </div>
             </div>
             <div class="p4">
-                <img src="./images/Passwords.svg" alt="password">
+                <img data-aos="flip-left" data-aos-duration="1500" src="./images/Passwords.svg" alt="password">
                 <p>Spylt</p>
                 <p>Max Caffeinated Chocolate Milk.</p>
 
@@ -489,9 +491,9 @@
             </h2>
 
             <div class="d-flex gap-5 justify-content-center fw-bold mb-5">
-                <p>Safe.</p>
-                <p>Secured.</p>
-                <p>Private.</p>
+                <p data-aos="flip-down" data-aos-duration="2000">Safe.</p>
+                <p data-aos="flip-down" data-aos-duration="2500">Secured.</p>
+                <p data-aos="flip-down" data-aos-duration="3000">Private.</p>
             </div>
 
             <p class="text-center data-usageP">
@@ -504,8 +506,9 @@
                 Find out our privacy policies and how we use your data.
             </p>
             <span>
-                <a onclick="displayText()" href="" class="data-usageP">Privacy Policy <label for="check"><i class="fa-regular fa-square-check text-primary data-usageP"></i></label></a>
-                <input type="checkbox" name="privacyPoli" id="check">
+                <!-- <a onclick="displayText()" href="" class="data-usageP">Privacy Policy <label for="check"><i class="fa-regular fa-square-check text-primary data-usageP"></i></label></a> -->
+                <label for="check" class="text-primary text-decoration-underline data-usageP" style="cursor: pointer;">Privacy Policy<i class="fa-regular fa-square-check text-primary data-usageP"></i></label>
+                <input type="checkbox" class="d-none" name="privacyPolicy" id="check" onclick="displayText()">
             </span>
         </div>
 
@@ -580,7 +583,7 @@
                 <img src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/664349929520d1916dc24a50_Motofixar-background-image.png" alt="motofixar background image" style="width: 100%; height: 100%;">
             </div>
 
-            <div class="align-content-center ms-5" style="min-height: 250px;">
+            <div class="align-content-center ms-5" style="min-height: 250px;" data-aos="fade-left" data-aos-duration="1500">
                 <h4 class="fw-bold">Need to stay connected to technicians?</h4>
                 <p class="mb-5">
                     Motofixar not only connects you with a technician, we help you <br> monitor
@@ -710,7 +713,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-      </script>
+    </script>
 
 </body>
 </html>

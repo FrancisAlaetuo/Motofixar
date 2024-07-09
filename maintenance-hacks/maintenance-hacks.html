@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/bfc2085ea5.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navbar for header starts here -->
@@ -76,7 +77,7 @@
             <img class="border-2 rounded-4" src="https://uploads-ssl.webflow.com/658d776c5294877bbd03327e/6645f2493418058e9b2b5b13_maintenance-hacks-div-img.jpeg" alt="Maintenance hacks to care for your vehicle" style="height: 100%; width: 100%;">
         </div>
         <div class="maintenance-info">
-            <h1 class="text-uppercase text-center fw-bold fs-2 mb-5">Basic Car Maintenance</h1>
+            <h1 class="text-uppercase text-center fw-bold fs-2 mb-5" data-aos="zoom-in" data-aos-duration="2000">Basic Car Maintenance</h1>
             <h4 class="text-uppercase mb-5 fs-5 fw-bold">A schedule of preventative tasks</h4>
 
             <p>
@@ -106,7 +107,7 @@
                 To make it easy to keep track of your car maintenance schedule, we've created a simple, 
                 downloadable car maintenance checklist to help you keep on top of your automotive maintenance.
             </p>
-            <h3 class="fs-4">SHORT TERM CHECK-UPS</h3>
+            <h3 class="fs-4" data-aos="fade-down" data-aos-duration="1000">SHORT TERM CHECK-UPS</h3>
             <p class="mb-5">
                 For proper vehicle maintenance, inspect the following:
             </p>
@@ -170,7 +171,7 @@
         </div>
 
         <div class="long-term-maintenance mt-5">
-            <h3 class="fs-4 mb-5">LONG TERM CHECK-UPS</h3>
+            <h3 class="fs-4 mb-5" data-aos="fade-down" data-aos-duration="1000">LONG TERM CHECK-UPS</h3>
 
             <h3 class="fs-6 fw-bold">TRANSMISSION FLUID</h3>
             <p>
@@ -228,7 +229,7 @@
         </div>
 
         <div class="seasonal-maintenance-hacks mt-5">
-            <h3 class="fs-4">SEASONAL CHECK-UPS</h3>
+            <h3 class="fs-4" data-aos="fade-down" data-aos-duration="1000">SEASONAL CHECK-UPS</h3>
             <p class="mb-4">
                 The needs of your vehicle can vary by season and driving conditions. Following are a few suggestions to 
                 add to the notes section of your vehicle maintenance checklist:
@@ -335,19 +336,24 @@
 
     </div>
 
-    <div class="motofixar-footer-socials text-white mb-5">
+    <div class="motofixar-footer-socials text-white mb-5" style="height: 80px;">
         <h4>Join our socials</h4>
         <div class="social-handles d-flex gap-3 fs-4">
             <!-- for facebook, youtube, instagram, twitter -->
-            <span class="me-2"><a href=""><i class="fa-brands fa-facebook text-white"></i></a></span>
-            <span class="me-2"><a href=""><i class="fa-brands fa-youtube text-white"></i></a></span>
-            <span class="me-2"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></span>
-            <span class="me-2"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></span>
+            <span class="me-2 forHover"><a href=""><i class="fa-brands fa-facebook text-white"></i></a></span>
+            <span class="me-2 forHover"><a href=""><i class="fa-brands fa-youtube text-white"></i></a></span>
+            <span class="me-2 forHover"><a href=""><i class="fa-brands fa-instagram text-white"></i></a></span>
+            <span class="me-2 forHover"><a href=""><i class="fa-brands fa-twitter text-white"></i></a></span>
         </div>
     </div>
 
     <div class="text-center mt-5">
         <p class="contactUs-color-change"><strong>Contact us:</strong> francisalaetuo@gmail.com</p>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div><i class="fa-regular fa-copyright me-1"></i></div>
+        <div><p class="contactUs-color-change">2024 Motofixar, Inc. All Rights Reserved.</p></div>
     </div>
 
 </div>
@@ -378,5 +384,9 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

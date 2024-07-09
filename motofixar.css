@@ -9,8 +9,9 @@ body{
     /* height: 200vh; */
     overflow-x: hidden !important;
     background-color: #f1f1f1 !important;
-    
 }
+
+/* The body overflows in width (x-axis at reduced screen sizes). I've tried to fix this unsuccessfully. Seek help to fix it */
 
 /* Navbar CSS (header and sidebar) */
 
@@ -443,6 +444,10 @@ span.ext.dropdown-center:hover li a i {
     color: rgb(99, 98, 98);
 }
 
+#check:checked #textField{
+    display: block;
+}
+
 
 /* CSS FOR SCROLL TO TOP BUTTON */
 #to-top {
@@ -647,12 +652,20 @@ a #to-top i {
     padding: 15px 0;
 } */
 
-.video_contentOverlay {
-    
-    top: 23%;
-    
-    
+.video_contentOverlay { 
+    top: 23%; 
   }
+
+.playstore-and-appstore {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.downloadApp-width {
+    width: fit-content;
+}
 
 
 
